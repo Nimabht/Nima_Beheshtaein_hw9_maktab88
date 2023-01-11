@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+.container {
+  margin: 1rem auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.progress-wrapper {
+  width: 600px;
+  border: 1px black solid;
+  height: 2rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+#percent {
+  position: absolute;
+  top: 50%;
+  right: 44%;
+  transform: translate(-50%, -50%);
+}
+.progress-bar {
+  width: 10%;
+  height: 100%;
+  background-color: #18d116;
+}
+button {
+  width: 10rem;
+  height: 2rem;
+}
